@@ -1,0 +1,185 @@
+/* LOGIN PAGE && REGISTRATION PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body {
+  background: linear-gradient(270deg, #40E0D0, #ff8c00,  #ff0080);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+.container{
+  width : 100%;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+nav .menu-img{
+  width: 27px;
+  margin-right: -6px;
+  cursor: pointer;
+}
+nav .logo{
+  width: 170px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  .container2{
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+  span{
+    color:white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .input-field{
+    display: flex;
+    flex-direction: column;
+  }
+  .input{
+    height: 38px;
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background-color: rgba(255,255,255, 0.1);
+  }
+  ::-webkit-input-placeholder{
+    color: #fff;
+  }
+  .submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 40px;
+    outline: none;
+    width: 100%;
+    background-color: rgba(255,255,255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+  }
+  .submit:hover{
+    box-shadow: 1px 5px 7 1px rgba(255,255,255, 0.2);
+  }
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .left{
+    display: flex;
+  }
+  label a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .last{
+    text-align: center;
+    color: #fff;
+  }
+  /* Registeration Form */
+  .reg{
+    background-image: url(log1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  .data{
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+  .data-input{
+    display: flex;
+    flex-direction: column;
+  }
+  .regi{
+    height: 38px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background-color: rgba(255,255,255, 0.1);
+  }
+  .register{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 40px;
+    width: 33%;
+    background-color: rgba(255,255,255, 0.7);
+    cursor: pointer;
+    transition: 0.3s;
+  }
